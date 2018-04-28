@@ -23,6 +23,7 @@ doc_data2 = {
 	'owneruid': '1'
 }
 
+docs.insert_many([doc_data1, doc_data2])
 
 # gets requests to the server
 @route('/db/<uid>')
